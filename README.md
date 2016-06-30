@@ -1,4 +1,4 @@
-Starter Environment
+Tahrir Square Data Visualization
 ---
 
 What's set up here:
