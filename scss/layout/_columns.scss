@@ -13,6 +13,9 @@
 .col-4 {
 	width: 33%;
 	float: left;
+	@include tablet {
+		width: 26%;
+	}
 }
 .col-8 {
 	width: 66%;

@@ -235,6 +235,56 @@ $break-large: 1000px;
 		position: absolute;
 		width: 17%;
 		top: 100px;
+		h3 {
+			text-align: left;
+			padding-left: 30px;
+			font-weight: 200;
+			font-size: 2em;
+		}
+		.groups{
+			text-align: left;
+			margin-left: 31px;
+			li {
+			    background: url("#{$path-img}/chambray.svg") no-repeat left 3px;
+			    background-size: 10px;
+			    padding-left: 1em;
+			    line-height: 0.9em;
+			    margin-bottom: 10px;
+			    &:nth-child(2) {
+				    background: url("#{$path-img}/flamingo.svg") no-repeat left 3px;
+				    background-size: 10px;
+				    padding-left: 1em;
+				    line-height: 0.9em;
+				    margin-bottom: 10px;
+				}
+				&:nth-child(3) {
+				    background: url("#{$path-img}/breakerbay.svg") no-repeat left 3px;
+				    background-size: 10px;
+				    padding-left: 1em;
+				    line-height: 0.9em;
+				    margin-bottom: 10px;
+				}
+				&:nth-child(4) {
+				    background: url("#{$path-img}/blush.svg") no-repeat left 3px;
+				    background-size: 10px;
+				    padding-left: 1em;
+				    line-height: 0.9em;
+				    margin-bottom: 10px;
+				}
+				&:nth-child(5) {
+				    background: url("#{$path-img}/sandrift.svg") no-repeat left 3px;
+				    background-size: 10px;
+				    padding-left: 1em;
+				    line-height: 0.9em;
+				    margin-bottom: 10px;
+				}
+			}
+		}
+		@include tablet {
+			float: left;
+			width: 61%;
+			top: 80px;
+		}
 	}
 	.right-side {
 		background: $color-sec-background;
@@ -243,51 +293,10 @@ $break-large: 1000px;
 		width: 16%;
 		top: 60px;
 		margin-right: 10px;
-	}
-	.left-side .groups{
-		text-align: left;
-		margin-left: 31px;
-	}
-	.left-side .groups li {
-	    background: url("#{$path-img}/chambray.svg") no-repeat left 3px;
-	    background-size: 10px;
-	    padding-left: 1em;
-	    line-height: 0.9em;
-	    margin-bottom: 10px;
-	}
-	.left-side .groups li:nth-child(2) {
-	    background: url("#{$path-img}/flamingo.svg") no-repeat left 3px;
-	    background-size: 10px;
-	    padding-left: 1em;
-	    line-height: 0.9em;
-	    margin-bottom: 10px;
-	}
-	.left-side .groups li:nth-child(3) {
-	    background: url("#{$path-img}/breakerbay.svg") no-repeat left 3px;
-	    background-size: 10px;
-	    padding-left: 1em;
-	    line-height: 0.9em;
-	    margin-bottom: 10px;
-	}
-	.left-side .groups li:nth-child(4) {
-	    background: url("#{$path-img}/blush.svg") no-repeat left 3px;
-	    background-size: 10px;
-	    padding-left: 1em;
-	    line-height: 0.9em;
-	    margin-bottom: 10px;
-	}
-	.left-side .groups li:nth-child(5) {
-	    background: url("#{$path-img}/sandrift.svg") no-repeat left 3px;
-	    background-size: 10px;
-	    padding-left: 1em;
-	    line-height: 0.9em;
-	    margin-bottom: 10px;
-	}
-	.left-side h3{
-		text-align: left;
-		padding-left: 30px;
-		font-weight: 200;
-		font-size: 2em;
+		@include tablet {
+			top: 25px;
+			width: 36%;
+		}
 	}
 	#chart {
 		background: #FFF8F1;
@@ -298,6 +307,22 @@ $break-large: 1000px;
 		width: 65%;
 		height: 800px;
 		margin-top: 10px;
+		@include tablet {
+			background-color: #F2EBE5;
+			background-position-x: 50%;
+			background-position-y: -243%;
+			top: 150px;
+			height: 70%;
+			width: 100%;
+		}
+		svg {
+			@include tablet {
+				width: 115%;
+			    position: relative;
+			    left: -78px;
+			    top: -44px;
+			}
+		}
 	}
 	path {
 		fill: none;
@@ -313,34 +338,30 @@ $break-large: 1000px;
 // SECTION 4 => PROTESTORS PART STYLES
 //* --------------------------------------- */
 #section4 {
-	.name {
-		font-weight: 700;
-		font-size: 1.1em;
-		text-align: left;
-		margin-left: -32px;
-	}
-	.subtitle {
-		font-size: 1em;
-		text-align: left;
-		line-height: 3em;
-		margin-left: 2px;
-	}
-	p.description {
-		font-size: 16px;
-		width: 201px;
-		text-align: left;
-		margin: 0 58px;
-		padding-top: 15px;
-	}
-	.about img {
-		width: 200px;
-		padding: 30px;
-	}
-	.about > div:nth-child(3) > span:nth-child(3){
-		margin-left: -64px;
-	}
-	div.col-4:nth-child(4) > span:nth-child(3) {
-		margin-left: -90px;
+	.about {
+		img {
+			width: 200px;
+			padding: 30px;
+		}
+		.name {
+			font-weight: 700;
+			font-size: 1.1em;
+			text-align: left;
+			margin-left: -32px;
+		}
+		.subtitle {
+			font-size: 1em;
+			text-align: left;
+			line-height: 3em;
+			margin-left: 2px;
+		}
+		p.description {
+			font-size: 16px;
+			width: 201px;
+			text-align: left;
+			margin: 0 58px;
+			padding-top: 15px;
+		}
 	}
 }
 
