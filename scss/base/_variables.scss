@@ -1,0 +1,38 @@
+// FONTS 
+$font-san-serif				: 'Titillium Web', sans-serif;
+
+// DESCRIPTIVE COLOR VARIABLES
+
+$white					    : #ffffff;				 
+$black					    : #000000;
+$gray					    : #878787;
+
+// color of fonts
+$color-text-base			: #0A2D28;
+$input-text-base			: #0A2D28;
+
+// circles
+$sandrift				    : #A98A78;
+$blush					    : #BF4B6A;	
+$flamingo				    : #E96445;
+$breaker-bay			    : #549E9C;
+$chambray				    : #4C5D84;
+
+// backgrounds
+$floral-white			    : #FFF8F1;
+$dawn-pink				    : #F2EBE5;
+
+// functional color variables 
+$color-prim-background 	    : $floral-white;
+$color-sec-background  	    : $dawn-pink;
+
+	// protesters groups
+$color-muslim-brotherhood 	: $chambray;
+$color-labor-social			: $flamingo;
+$color-students				: $breaker-bay;
+$color-civil-powers			: $blush;
+$color-pro-regime			: $sandrift;
+
+// Assets paths
+
+$path-img					: '../images';

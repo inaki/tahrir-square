@@ -98,13 +98,13 @@ gulp.task('watch', function() {
 });
 
 gulp.task('imgmin', function () {
-    return gulp.src('img/*')
+    return gulp.src('images/*')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('dist/img'));
+        .pipe(gulp.dest('dist/images'));
 });
 
 gulp.task('default', ['browser-sync', 'js', 'imgmin', 'minify-html', 'scss', 'watch']);

@@ -1,10 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Gulp Starter Environment</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tahrir Square Dataviz</title>
+    <meta name="author" content="Imanol Aranzadi" />
+    <meta name="description" content="" />
+    <meta name="keywords"  content="" />
+    <meta name="Resource-type" content="Document" />
+
+	  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+
+
 </head>
 <body>
+
+
+<div id="menu-container">
+	<ul id="menu">
+	    <li data-menuanchor="homePage" class="active"><a href="#homePage">Home</a></li>
+	    <li data-menuanchor="introPage"><a href="#introPage">Intro</a></li>
+	    <li data-menuanchor="groupsPage"><a href="#groupsPage">Groups</a></li>
+	    <li data-menuanchor="protestsPage"><a href="#protestsPage">Protests</a></li>
+	    <li data-menuanchor="ProtestorsPage"><a href="#ProtestorsPage">Protestors</a></li>
+      <li data-menuanchor="aboutPage"><a href="#aboutPage">About</a></li>
+	</ul>
+</div>
+
+<div id="fullpage">
+
+    <div class="section active introduction " id="section0">
+      
+      <div class="slide active">
+          <div class="intro animated fadeIn">
+              <h2 class="intro-titles-one">
+                <span>In 2011, over a million of Egyptians </span><br>
+                <span>took to Tahrir Square, overthrowing</span><br>
+                <span>the 30 year rule of Hosni Mubarak.</span>
+              </h2>
+          </div>
+
+          <div class="intro-2 animated fadeInRight">
+              <h2 class="intro-titles-two animated fadeIn">
+                <span>However, in 2013 protests in Egypt </span><br>
+                <span>were effectively banned under </span><br>
+                <span>emergency laws.</span>
+              </h2>
+          </div>
+          <!-- <img class="arrow" src="images/arrow_transparent.svg" alt=""> -->
+      </div>
+<!--       <div class="slide slide2">
+          <div class="intro2">
+              <h1>intro 2</h1>
+          </div>
+      </div> -->
+
+    </div>
+    <div class="section" id="section1">
+        <h2>Yet today, <span class="strong">thousands</span> of Egyptians continue to take to the streets every month in spite of the threat of <span class="strong">violence</span> or <span class="strong">arrest</span> by authorities.</h2>
+        <hr>
+        <h4>Meet the protesting groups who are taking to the streets.</h4>
+        <ul>
+          <li><div class="circle1"></div></li>
+          <li><div class="circle2"></div></li>
+          <li><div class="circle3"></div></li>
+          <li><div class="circle4"></div></li>
+          <li><div class="circle5"></div></li>
+        </ul>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="container profiles">
+        <div class="col-2">
+          <img src="images/mb.png" alt=""><br>
+          <div class="circle1"></div>
+          <span class="title">Muslim <br>Brotherhood</span><br>
+          <div class="line"></div>
+          <span class="super">By our forearms we will regain our revolution</span><br>
+          <p class="description">
+          Muslim Brotherhood Group describes itself as an “inclusive reformist” movement. It is the largest political opposition movement in many Arab countries. Some political regimes, including the Egyptian one, classify it as a “terrorist group”.
+          </p>
+        </div>
+        <div class="col-2">
+          <img src="images/students.png" alt=""><br>
+          <div class="circle2"></div>
+          <span class="title"><br>Students</span><br>
+          <div class="line"></div>
+          <span class="super">Chaos or reinstating the dismissed students</span><br>
+          <p class="description">
+          This group includes all the students in schools and universities in Egypt generally, who belong to different political currents and are engaged in the political life.
+        </p>
+        </div>
+        
+        <div class="col-2">
+          <img src="images/labor-social.png" alt=""><br>
+          <div class="circle3"></div>
+          <span class="title">Labor & <br>Social</span><br>
+          <div class="line"></div>
+          <span class="super">Where are our salaries</span><br>
+          <p class="description">
+            This group includes all the workers in different Egyptian cities, who call for their social, economic and labor rights through protesting.
+          </p>
+        </div>
+
+         <div class="col-2">
+          <img src="images/civilpowers.png" alt=""><br>
+          <div class="circle4"></div>
+          <span class="title">Civil <br>Powers</span><br>
+          <div class="line"></div>
+          <span class="super">Freedom for the detainees</span><br>
+          <p class="description">
+               Unlike Muslim Brotherhood, this group includes all civil and political movements that protest for political reasons, most of them are pro-democracy ones.
+          </p>
+        </div>
+
+         <div class="col-2">
+          <img src="images/pro-regime.png" alt=""><br>
+          <div class="circle5"></div>
+          <span class="title">Pro- <br>Regime</span><br>
+          <div class="line"></div>
+          <span class="super">The people want the excecution of Muslim Brotherhood</span><br>
+          <p class="description">
+            This group refers to the pro-regime supporters who protest to show their support to the government’s decisions that are strongly denied by the political powers. The state encourages this kind of protests at some times.
+          </p>
+        </div>
+      </div>  
+    </div>
+    <div class="section" id="section3">
+        <div class="left-side">
+          <h3>
+            In 2015 there were 544 protests.
+            <br><br>
+            164 were attacked.
+          </h3>
+          <br><br>
+          <ul class="groups">
+            <li>Muslim Brotherhood</li>
+            <li>Labor & Social</li>
+            <li>Students</li>
+            <li>Civil Powers</li>
+            <li>Pro-Regime</li>
+          </ul>
+        </div>
+
+        <div id="chart"></div>
+     
+        <div class="right-side">
+          <div id="chart-side"></div>
+        </div>
+
+    </div>
+    <div class="section" id="section4">
+          <div class="container about">
+            <h2>About</h2>
+            <div class="col-4">
+            	<img src="images/rahman.png" alt=""><br>
+            	<span class="name">Ahmed Abdel Rahman</span><br>
+              <span class="subtitle">“Shura Council Incidents” Case</span><br>
+              <p class="description">
+              On 23 February 2015 Ahmed Abdel Rahman was handed down a 5-year in prison sentence, a fine of EGP100000; in addition to surveillance for a similar period after serving his prison term, over the “Shura Council Incidents” case.  
+              </p>
+            </div>
+            <div class="col-4">
+            	<img src="images/alaa.png" alt=""><br>
+            	<span class="name">Alaa Abdel Fattah</span><br>
+              <span class="subtitle">“Shura Council Incidents” Case</span><br>
+              <p class="description">
+              Alaa Abdel Fattah, on 23 February 2015, was sentenced to 5 years in jail, a fine of EGP100000, and surveillance for five years after serving his prison term. He is accused of breaching the Anti-Protest Law through organizing an unlicensed protest.
+            </p>
+            </div>
+            
+            <div class="col-4">
+            	<img src="images/ahmed.png" alt=""><br>
+            	<span class="name">Ahmed Douma</span><br>
+              <span class="subtitle">“Cabinet Council Incidents” Case</span><br>
+              <p class="description">Ahmed Douma was handed down a life sentence. He is accused of rallying, possessing cold weapons, assaulting police and military agents, setting fire to Egypt’s Scientific Community, and attacking other governmental facilities, including the Cabinet and Shura Councils.</p>
+            </div>
+          </div>
+    </div>
+    <div class="section" id="section5">
+          <h2>ANHRI</h2>
+          <h3>An Egyptian based human rights organization that was established in 2004 and focuses on defending freedom of expression and freedom of the press in Egypt and the Arab world.</h3>
+          <hr>
+          <h4><span class="strong">You can help by sharing on social media or reporting a protest</span></h4>
+          <form action="">
+            <input type="text" placeholder="Date">
+            <input type="text" placeholder="Group">
+            <input type="text" placeholder="Chant">
+            <button type="submit">Verify</button>
+          </form>
+    </div>
+</div>
+
+
+<!--[if IE]>
+    <script type="text/javascript">
+         var console = { log: function() {} };
+    </script>
+<![endif]-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/j.js"></script>
+
+
 
 </body>
 </html>

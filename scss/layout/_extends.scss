@@ -1,0 +1,11 @@
+// CENTER TEXT
+
+	// to use this just go to the scss file and 
+	// put extend %centered; for example
+	// .some-element {
+	//	extend: %centered;
+	// }
+
+%centered {
+	text-align: center;
+}

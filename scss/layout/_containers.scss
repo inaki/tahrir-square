@@ -1,0 +1,334 @@
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1000px;
+
+// CONTAINERS STYLES
+//* --------------------------------------- */
+
+#fullpage{
+  z-index: 0;
+    .container{
+    	width: 960px;
+    	margin: 0 auto;
+    }
+}
+// SECTION 0 => INITIAL PART STYLES
+//* --------------------------------------- */
+.introduction {
+	background-image: url('#{$path-img}/tahrirfull.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+// Section 0 
+#section0 {
+ 	background-size: 100%;
+   	background-repeat: no-repeat;
+   	.arrow {
+   	    width: 20px;
+   	}
+   	.intro {
+		-webkit-animation-duration: 2s;
+		-moz-animation-duration: 2s;
+		animation-duration: 2s;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		animation-delay: 1s;
+   	}
+   	.intro-titles-one {
+		text-align: left;
+		top: 0px;
+   	}
+   	.intro-2 {
+		background-image: url('#{$path-img}/tsHalf.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 50%;
+		-webkit-animation-duration: 2s;
+		-moz-animation-duration: 2s;
+		animation-duration: 2s;
+		-webkit-animation-delay: 3s;
+		-moz-animation-delay: 3s;
+		animation-delay: 3s;
+		position: relative;
+  		bottom: -107px;
+   	 }
+   	 .intro-titles-two {
+        -webkit-animation-duration: 2s;
+	    -moz-animation-duration: 2s;
+	    animation-duration: 2s;
+	    -webkit-animation-delay: 5s;
+	    -moz-animation-delay: 5s;
+	    animation-delay: 5s;
+	    /*-webkit-animation-delay: 2s;*/
+	    text-align: left;
+	    top: 100px;
+    }
+    .intro-titles-one > span {
+    	background: rgba($color-prim-background,0.8);
+    	height: 20px;
+    	line-height: 2em;
+    	padding: 0 35px;
+    }
+    .intro-titles-two > span {
+    	background: rgba($color-prim-background,0.8);
+    	height: 20px;
+    	line-height: 2em;
+    	padding: 0 35px;
+    }
+} 
+
+
+// SECTION 1 => INTRODUCTION PART STYLES
+//* --------------------------------------- */
+#section1{
+	background: url('#{$path-img}/bg-circle.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	h2 {
+		color: #0B2D28;
+		font-size: 4.1em;
+		font-weight: 200;
+		position: relative;
+		margin: 0 170px;
+		line-height: 1.3em;
+		top: 70px;
+		.strong{
+			font-weight: 400;
+		}
+	}
+	h4 {
+		font-size: 1.5em;
+		max-width: 310px;
+		text-align: center;
+		margin: 0 auto;
+		line-height: 1.3em;
+		margin-bottom: 12px;
+	}
+	hr {
+		width: 50%;
+		margin-top: 90px;
+		margin-bottom: 10px;
+		height: 2px;
+		background: $color-text-base;
+		border: none;
+	}
+	ul {
+		width: 150px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0px;
+	}
+	li {
+		list-style-type: none;
+		display: inline;
+		float: left;
+		padding: 7px;
+	}
+}
+
+
+
+// SECTION 2 => GROUPS PART STYLES
+//* --------------------------------------- */
+
+#section2 {
+	text-align: left;
+	img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.title{
+		font-size: 1.2em;
+		line-height: 1em;
+	}
+	.line{
+		width: 100%;
+		height: 1px;
+		background: gray;
+		margin-bottom: 15px;
+	}
+	.super{
+		font-size: 1.7em;
+		line-height: 1em;
+	}
+	.description {
+		font-size: 0.9em;
+		line-height: 1.2em;
+	}
+	.col-2 img {
+		margin-bottom: 20px;
+	}
+	.circle1, .circle2, .circle3, .circle4, .circle5 {
+		margin-bottom: 10px;
+	}
+}
+
+
+
+// SECTION 3 => PROTESTS PART STYLES
+//* --------------------------------------- */
+#section3 {
+	.fp-tableCell{
+		background: $color-sec-background;
+	}
+	.left-side {
+		position: absolute;
+		width: 17%;
+		top: 100px;
+	}
+	.right-side {
+		background: $color-sec-background;
+		position: absolute;
+		right: 0;
+		width: 16%;
+		top: 60px;
+		margin-right: 10px;
+	}
+	.left-side .groups{
+		text-align: left;
+		margin-left: 31px;
+	}
+	.left-side .groups li {
+	    background: url("#{$path-img}/chambray.svg") no-repeat left 3px;
+	    background-size: 10px;
+	    padding-left: 1em;
+	    line-height: 0.9em;
+	    margin-bottom: 10px;
+	}
+	.left-side .groups li:nth-child(2) {
+	    background: url("#{$path-img}/flamingo.svg") no-repeat left 3px;
+	    background-size: 10px;
+	    padding-left: 1em;
+	    line-height: 0.9em;
+	    margin-bottom: 10px;
+	}
+	.left-side .groups li:nth-child(3) {
+	    background: url("#{$path-img}/breakerbay.svg") no-repeat left 3px;
+	    background-size: 10px;
+	    padding-left: 1em;
+	    line-height: 0.9em;
+	    margin-bottom: 10px;
+	}
+	.left-side .groups li:nth-child(4) {
+	    background: url("#{$path-img}/blush.svg") no-repeat left 3px;
+	    background-size: 10px;
+	    padding-left: 1em;
+	    line-height: 0.9em;
+	    margin-bottom: 10px;
+	}
+	.left-side .groups li:nth-child(5) {
+	    background: url("#{$path-img}/sandrift.svg") no-repeat left 3px;
+	    background-size: 10px;
+	    padding-left: 1em;
+	    line-height: 0.9em;
+	    margin-bottom: 10px;
+	}
+	.left-side h3{
+		text-align: left;
+		padding-left: 30px;
+		font-weight: 200;
+		font-size: 2em;
+	}
+	#chart {
+		background: #FFF8F1;
+		background-image: url('#{$path-img}/center.svg');
+		background-repeat: no-repeat;
+		position: relative;
+		margin: 0 auto;
+		width: 65%;
+		height: 800px;
+		margin-top: 10px;
+	}
+	path {
+		fill: none;
+		stroke: #4C5D84;
+		stroke-width: 3px;
+	}
+
+	.textlabel {
+		font-family: $font-san-serif;
+	}
+}
+
+// SECTION 4 => PROTESTORS PART STYLES
+//* --------------------------------------- */
+#section4 {
+	.name {
+		font-weight: 700;
+		font-size: 1.1em;
+		text-align: left;
+		margin-left: -32px;
+	}
+	.subtitle {
+		font-size: 1em;
+		text-align: left;
+		line-height: 3em;
+		margin-left: 2px;
+	}
+	p.description {
+		font-size: 16px;
+		width: 201px;
+		text-align: left;
+		margin: 0 58px;
+		padding-top: 15px;
+	}
+	.about img {
+		width: 200px;
+		padding: 30px;
+	}
+	.about > div:nth-child(3) > span:nth-child(3){
+		margin-left: -64px;
+	}
+	div.col-4:nth-child(4) > span:nth-child(3) {
+		margin-left: -90px;
+	}
+}
+
+
+// SECTION 5 => ABOUT PART STYLES
+//* --------------------------------------- */
+#section5 {
+	text-align: left;
+	width: 50%;
+	margin: 0 auto;
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 1.5em;
+		font-weight: 200;
+	}
+	h4 {
+		font-weight: 400;
+		font-size: 1.5em;
+	}
+	hr {
+		margin: 20px 0px;
+	}
+	input {
+		background: rgb(242, 235, 229) none repeat scroll 0% 0%;
+		border: medium none;
+		margin-right: 10px;
+		height: 30px;
+		width: 21%;
+		padding-left: 20px;
+		font-size: 1.2em;
+	}
+	form {
+		padding: 0px;
+		margin: 30px 0px;
+		text-align: center;
+	}
+	button {
+		color: white;
+		background: #0B2D28;
+		border: medium none;
+		height: 30px;
+		width: 23%;
+		font-size: 1.2em;
+	}
+}
+
+
+
+
