@@ -5,6 +5,10 @@
 	width: 18%;
 	float: left;
 	padding: 5px;
+	@include tablet {
+		width: 100%;
+		padding: 0px;
+	}
 }
 .col-4 {
 	width: 33%;

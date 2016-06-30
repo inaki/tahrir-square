@@ -47,3 +47,4 @@ You can run `gulp deploy` to push your site onto the gh-pages branch. Then, you 
 - `gulp`: a [task manager](http://gulpjs.com) that is running a bunch of scripts to make this environment work
 - `dist`: distribution folder -- don't edit anything in here. It is where your gulp task builds into
 - `scss`: a Sass syntax that imitates CSS
+# Tahrir Square Data Visualization of Protests
