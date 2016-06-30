@@ -168,8 +168,8 @@ $break-large: 1000px;
 			width: 52%;
 			float: left;
 			height: 169px;
-			margin-top: -25px;
 			margin-left: 20px;
+			padding: 10px;
 		}
 	}
 	.title{
@@ -179,6 +179,7 @@ $break-large: 1000px;
 			font-size: 1.2em;
 			line-height: 0.5em;
 			float: left;
+			margin-bottom: 10px;
 		}
 	}
 	.line{
@@ -195,7 +196,11 @@ $break-large: 1000px;
 		line-height: 1em;
 		@include tablet {
 			font-style: bolder;
-			line-height: 0.5em;
+			line-height: 1em;
+			float: left;
+			display: block;
+			clear: both;
+			width: 100%;
 		}
 	}
 	.description {
