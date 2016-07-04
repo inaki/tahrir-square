@@ -11,10 +11,13 @@
 	}
 }
 .col-4 {
-	width: 33%;
+	width: 27%;
 	float: left;
+	margin: 10px;
+	padding: 20px;
 	@include tablet {
-		width: 26%;
+		width: 27.5%;
+		padding: 0px;
 	}
 }
 .col-8 {
